@@ -13,7 +13,7 @@ const Navbar = () => {
         <ul className="nav__menu">
           {Arr.map((item) => (
             <li key={item.id}>
-              <a href="iteam.link">{item.title}</a>
+              <a href={item.link}>{item.title}</a>
             </li>
           ))}
         </ul>
