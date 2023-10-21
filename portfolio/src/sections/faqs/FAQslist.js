@@ -9,7 +9,7 @@ const faqslist = [
     id: 2,
     question: "What stack do you use to build your projects?",
     answer:
-      "I'm a fullstack developer. I use MERNS stack (MongoDB, Express, React, Node) for web development and React Native for mobile development. but i am open up to learn new technologies and frameworks.",
+      "I'm a fullstack developer. I use MERN stack (MongoDB, Express, React, Node) for web development. but i am open up to learn new technologies and frameworks.",
   },
   {
     id: 5,
@@ -21,13 +21,13 @@ const faqslist = [
     id: 4,
     question: "Why this resume app contain with fictional data?",
     answer:
-      "I'm still a new budding developer, so i don't have much achievements to fill this resume app with my own data. but i will update it as soon as i have enough data to fill it with.",
+      "I'm still a new budding developer, so i don't have much achievements to fill this resume app. but i will update it regularly.",
   },
   {
     id: 3,
     question: "How good are you with english?",
     answer:
-      "As i have been with my english speaking friends for a period of time, i can communicate in english regularly. All skills are quite far from perfect but i can communicate with ease and want to improve it more.  ",
+      "As i have been with my english speaking friends for a period of time, i can communicate in english regularly. All skills are quite far from perfect but i can communicate with ease and aim to improve it more and more.  ",
   },
   {
     id: 6,
