@@ -13,7 +13,7 @@ const Testimonials = () => {
     <section id="testimonials">
       <h2>What do people say about me</h2>
       <p>These are testimonials from people around me</p>
-      <div className="container">
+      <div className="container" data-aos="zoom-out" data-aos-duration="3000">
         <Swiper
           spaceBetween={15}
           centeredSlides={true}
