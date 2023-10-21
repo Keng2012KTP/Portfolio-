@@ -5,7 +5,11 @@ const Testimonial = ({ testimonial }) => {
       <p>{testimonial.quote}</p>
       <div className="testimonial__client">
         <div className="testimonial__client-avatar">
-          <img src={testimonial.avatar} alt="img testimonail card" />
+          <img
+            className="testimonial__client-avatar"
+            src={testimonial.avatar}
+            alt="img testimonail card"
+          />
         </div>
       </div>
       <div className="testimonial__client-details">

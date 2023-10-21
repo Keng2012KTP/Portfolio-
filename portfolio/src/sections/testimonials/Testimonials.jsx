@@ -1,9 +1,10 @@
 import "./Testimonials.css";
-import { Autoplay } from "swiper/modules";
-import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/autoplay";
+import "swiper/css/pagination";
+import { Autoplay, Pagination } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
 import Testimonial from "./Testimonial";
 import Testimonialsdata from "./Testimonialsdata";
 
@@ -14,17 +15,22 @@ const Testimonials = () => {
       <p>These are testimonials from people around me</p>
       <div className="container">
         <Swiper
-          spaceBetween={10}
+          spaceBetween={15}
           centeredSlides={true}
-          slidesPerView={2}
+          slidesPerView={1}
+          breakpoints={{
+            601: { slidesPerView: 2 },
+            1025: { slidesPerView: 3 },
+          }}
           loop={true}
           autoplay={{
-            delay: 1450,
+            delay: 1800,
             pauseOnMouseEnter: true,
             disableOnInteraction: false,
           }}
           className="mySwiper"
-          modules={[Autoplay]}
+          pagination={{ clickable: true }}
+          modules={[Autoplay, Pagination]}
         >
           {Testimonialsdata.map((testimonial) => (
             <SwiperSlide key={testimonial.id}>
