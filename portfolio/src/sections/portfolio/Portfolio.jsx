@@ -19,7 +19,7 @@ const Portfolio = () => {
     setProjects(filterProjects);
   };
   return (
-    <section id="portfolio">
+    <section id="portfolio" data-aos="fade-down-right">
       <h2>Recent Projects</h2>
       <p>
         Check out some of the projects I've recently been working on. Use the

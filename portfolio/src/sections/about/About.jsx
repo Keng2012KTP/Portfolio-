@@ -6,7 +6,7 @@ import Card from "../../components/Card";
 import aboutcarddata from "./aboutcarddata";
 const About = () => {
   return (
-    <section id="about">
+    <section id="about" data-aos="fade-up" data-aos-duration="3000">
       <div className="container about__container">
         <div className="about__left">
           <div className="about__portrait">
