@@ -19,7 +19,7 @@ export const socials = [
     icon: <AiOutlineTwitter />,
     link: "https://twitter.com/k_kantaphong",
   },
-  { id: 3, icon: <TfiEmail />, link: "kantaphong.keng@gmail.com" },
+  { id: 3, icon: <TfiEmail />, link: "mailto:kantaphong.keng@gmail.com" },
   { id: 4, icon: <AiFillGithub />, link: "https://github.com/KantaphongK" },
   {
     id: 5,
