@@ -27,7 +27,7 @@ const faqslist = [
     id: 3,
     question: "How good are you with english?",
     answer:
-      "As i have been with my english speaking friends for a period of time, i can communicate in english regularly. All skills are not perfect but i can communicate with ease and want to improve it more.  ",
+      "As i have been with my english speaking friends for a period of time, i can communicate in english regularly. All skills are quite far from perfect but i can communicate with ease and want to improve it more.  ",
   },
   {
     id: 6,
