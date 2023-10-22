@@ -16,16 +16,16 @@ const Portfoliodata = [
     title: "Project Title One (Fullstack)",
     desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
     demo: "https://www.google.com",
-    github: "https://github.com",
+    github: "https://github.com/KantaphongK",
   },
   {
     id: 2,
     category: "frontend",
     image: Image2,
-    title: "Project Title Two (Frontend)",
-    desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
+    title: "Resume - Web resume Application (Frontend)",
+    desc: "Web resume application built with Conventional CSS-ReactJS and Node.js. It is a responsive web application that views on Tablet, Mobile, and Desktop.",
     demo: "https://www.google.com",
-    github: "https://github.com",
+    github: "https://github.com/KantaphongK",
   },
   {
     id: 3,
@@ -34,7 +34,7 @@ const Portfoliodata = [
     title: "Project Title Three (Backend)",
     desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
     demo: "https://www.google.com",
-    github: "https://github.com",
+    github: "https://github.com/KantaphongK",
   },
   {
     id: 4,
@@ -43,7 +43,7 @@ const Portfoliodata = [
     title: "Project Title Four (Fullstack)",
     desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
     demo: "https://www.google.com",
-    github: "https://github.com",
+    github: "https://github.com/KantaphongK",
   },
   {
     id: 5,
@@ -52,7 +52,7 @@ const Portfoliodata = [
     title: "Project Title Five (Fullstack)",
     desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut! ",
     demo: "https://www.google.com",
-    github: "https://github.com",
+    github: "https://github.com/KantaphongK",
   },
   {
     id: 6,
@@ -61,7 +61,7 @@ const Portfoliodata = [
     title: "Project Title Six (Frontend)",
     desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
     demo: "https://www.google.com",
-    github: "https://github.com",
+    github: "https://github.com/KantaphongK",
   },
   {
     id: 7,
@@ -70,7 +70,7 @@ const Portfoliodata = [
     title: "Project Title Seven (Frontend)",
     desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
     demo: "https://www.google.com",
-    github: "https://github.com",
+    github: "https://github.com/KantaphongK",
   },
   {
     id: 8,
@@ -79,7 +79,7 @@ const Portfoliodata = [
     title: "Project Title Eight (Backend)",
     desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
     demo: "https://www.google.com",
-    github: "https://github.com",
+    github: "https://github.com/KantaphongK",
   },
   {
     id: 9,
@@ -88,7 +88,7 @@ const Portfoliodata = [
     title: "Project Title Nine (Frontend)",
     desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
     demo: "https://www.google.com",
-    github: "https://github.com",
+    github: "https://github.com/KantaphongK",
   },
 ];
 
