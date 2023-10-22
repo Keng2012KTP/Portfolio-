@@ -57,7 +57,7 @@
   background: hsl(270, 70%, 46%);
 }
 .theme__primary-colors .color-2 {
-  background: hsl(110, 70%, 46%);
+  background: hsl(80, 70%, 46%);
 }
 .theme__primary-colors .color-3 {
   background: hsl(240, 70%, 46%);
@@ -69,7 +69,7 @@
   background: hsl(0, 70%, 46%);
 }
 .theme__primary-colors .color-6 {
-  background: hsl(52, 70%, 46%);
+  background: hsl(40, 70%, 46%);
 }
 @media screen and (max-width: 600px) {
   .card.theme__modal {
@@ -82,8 +82,7 @@
   }
 }
 @keyframes animateModal {
-  to{
+  to {
     opacity: 1;
   }
 }
-  
