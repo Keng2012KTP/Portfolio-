@@ -4,9 +4,13 @@ import Card from "../../components/Card";
 
 const Services = () => {
   return (
-    <section id="services" data-aos="fade-right" data-aos-duration="1000">
-      <h2>My Skills and Services</h2>
-      <p>I give u the best in all the Skills and Services below</p>
+    <section id="services">
+      <h2 data-aos="fade-right" data-aos-duration="1000">
+        My Skills and Services
+      </h2>
+      <p data-aos="fade-right" data-aos-duration="1000">
+        I give u the best in all the Skills and Services below
+      </p>
       <div
         className="container services__container "
         data-aos="fade-left"

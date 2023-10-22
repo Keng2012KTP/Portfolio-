@@ -6,8 +6,12 @@ import Card from "../../components/Card";
 import aboutcarddata from "./aboutcarddata";
 const About = () => {
   return (
-    <section id="about" data-aos="fade-up" data-aos-duration="3000">
-      <div className="container about__container">
+    <section id="about">
+      <div
+        className="container about__container"
+        data-aos="fade-up"
+        data-aos-duration="3000"
+      >
         <div className="about__left">
           <div className="about__portrait">
             <img src={aboutimg} alt="img-about left" />
