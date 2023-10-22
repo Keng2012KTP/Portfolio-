@@ -19,9 +19,9 @@ const Portfolio = () => {
     setProjects(filterProjects);
   };
   return (
-    <section id="portfolio" data-aos="fade-down-right">
-      <h2>Recent Projects</h2>
-      <p>
+    <section id="portfolio">
+      <h2 data-aos="fade-down-right">Recent Projects</h2>
+      <p data-aos="fade-down-right">
         Check out some of the projects I've recently been working on. Use the
         button to toggle between the different categories.
       </p>

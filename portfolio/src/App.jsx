@@ -8,6 +8,9 @@ import FAQs from "./sections/faqs/FAQs";
 import Contact from "./sections/contact/Contact";
 import Footer from "./sections/footer/Footer";
 import FloatingNav from "./sections/floating-nav/FloatingNav";
+import Modal from "./components/Modal";
+import Theme from "./theme/Theme";
+import { useThemeContext } from "./context/theme-context";
 import { useRef, useState, useEffect } from "react";
 
 const App = () => {
@@ -36,8 +39,12 @@ const App = () => {
     const checkYposition = setInterval(FloatingNavToggleHandler, 2000);
     return () => clearInterval(checkYposition);
   }, [FloatingNavToggleHandler, siteYPosition]);
+  const { themeState } = useThemeContext();
   return (
-    <main ref={mainRef}>
+    <main
+      ref={mainRef}
+      className={`${themeState.primary} ${themeState.background}`}
+    >
       <Navbar />
       <Header />
       <About />
@@ -47,6 +54,8 @@ const App = () => {
       <FAQs />
       <Contact />
       <Footer />
+      <Modal />
+      <Theme />
       {showFloatingNav && <FloatingNav />}
     </main>
   );
