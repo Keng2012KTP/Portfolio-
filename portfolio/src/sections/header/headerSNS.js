@@ -1,13 +1,29 @@
-import { AiOutlineInstagram } from "react-icons/ai";
 import { AiOutlineTwitter } from "react-icons/ai";
-import { AiOutlineDribbble } from "react-icons/ai";
-import { AiFillGithub } from "react-icons/ai";
+import { VscGithubInverted } from "react-icons/vsc";
+import { BsLinkedin } from "react-icons/bs";
+import { IoMailSharp } from "react-icons/io5";
 
 const headerSNS = [
-  { id: 1, icon: <AiOutlineInstagram />, link: "https://instagram.com" },
-  { id: 2, icon: <AiOutlineTwitter />, link: "https://twitter.com" },
-  { id: 3, icon: <AiOutlineDribbble />, link: "https://dribbble.com" },
-  { id: 4, icon: <AiFillGithub />, link: "https://github.com" },
+  {
+    id: 1,
+    icon: <BsLinkedin />,
+    link: "https://www.linkedin.com/in/kantaphongkany/",
+  },
+  {
+    id: 2,
+    icon: <VscGithubInverted />,
+    link: "https://github.com/KantaphongK",
+  },
+  {
+    id: 3,
+    icon: <AiOutlineTwitter />,
+    link: "https://twitter.com/k_kantaphong",
+  },
+  {
+    id: 4,
+    icon: <IoMailSharp />,
+    link: "mailto:kantaphong.keng@gmail.com",
+  },
 ];
 
 export default headerSNS;

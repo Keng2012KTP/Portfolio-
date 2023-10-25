@@ -14,8 +14,8 @@ const Portfoliodata = [
     category: "fullstack",
     image: Image1,
     title: "Get That Job -job search websites (Fullstack)",
-    desc: "The 5-mans team graduation project from The bootcamp i attended. It is a web application that offers people to search for a job or can be the recruiter to post a job. The application is built with ReactJS, NodeJS, express, and Supabase as Database/File storage. ",
-    demo: "https://www.google.com",
+    desc: "The 5-mans graduation project from The bootcamp i attended. It is a web application that offers people to search for a job or can be the recruiter to post a job. The application is built with React.js, Node.js-express, and Supabase(SQL) as Database/File storage. ",
+    demo: "https://get-that-job-2j3k.netlify.app/",
     github: "https://github.com/KantaphongK/Get-That-Job-Project",
   },
   {
@@ -23,9 +23,9 @@ const Portfoliodata = [
     category: "frontend",
     image: Image2,
     title: "Resume - Web resume Application (Frontend)",
-    desc: "Web resume&Portfolio application built with Conventional CSS-ReactJS and NodeJS. It is a responsive web application that views on Tablet, Mobile, and Desktop.",
-    demo: "https://www.google.com",
-    github: "https://github.com/KantaphongK",
+    desc: "Web resume&Portfolio application built with Conventional CSS-React.js and Node.js. It is a responsive web application that views on Tablet, Mobile, and Desktop.",
+    demo: "https://portfolio-pi-lilac-79.vercel.app/",
+    github: "https://github.com/Keng2012KTP/Portfolio-",
   },
   {
     id: 3,

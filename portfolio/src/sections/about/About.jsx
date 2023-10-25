@@ -16,6 +16,11 @@ const About = () => {
           <div className="about__portrait">
             <img src={aboutimg} alt="img-about left" />
           </div>
+          <div className="about__tools">
+            <h6 className="about__tools-header">
+              I'm using tools as below-WIP
+            </h6>
+          </div>
         </div>
         <div className="about__right">
           <h2>About Me</h2>
@@ -28,20 +33,18 @@ const About = () => {
               </Card>
             ))}
           </div>
-          <p>
-            " I have completed a Full Stack Bootcamp with expertise in the MERNs
-            stack. This comprehensive training has equipped me with a strong
-            foundation in web development. On the front-end, I am skilled in
-            building interactive and responsive user interfaces using React,
-            while on the back-end, I have experience in creating server-side
-            applications using Node.js and Express.js, focusing on API
-            development and data management with MongoDB. I am well-versed in
-            version control, deployment, security, and API integration."
+          <p className="about__p1">
+            I have completed a Full Stack Bootcamp with expertise in the MERN
+            stack. The comprehensive training has equipped me with a strong
+            foundation in web development.
           </p>
-          <p>
-            "My name is Keng, promise to apply these skills to make a positive
-            impact in the world of web development and to remain dedicated to
-            continuous growth and learning in this ever-evolving field."
+          <p className="about__p2">
+            On the front-end, I am capable in building interactive and
+            responsive user interfaces using React, while on the back-end, I
+            have experience using Node.js and Express.js, also focusing on API
+            development and data management with MongoDB/PostgreSQL. I am
+            well-versed in version control, deployment, security, and API
+            integration.
           </p>
           <a href={cv} download className="btn primary">
             Download CV <PiDownloadSimpleBold />

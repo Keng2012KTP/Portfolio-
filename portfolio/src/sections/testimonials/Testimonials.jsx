@@ -12,7 +12,12 @@ const Testimonials = () => {
   return (
     <section id="testimonials">
       <h2>What do people say about me</h2>
-      <p>These are testimonials from people around me</p>
+      <text className="testimonials__p">
+        These are testimonials from people around me
+        <br /> <br />
+        The section is WIP since the data is still fictional
+        <br /> <br />
+      </text>
       <div className="container" data-aos="zoom-out" data-aos-duration="3000">
         <Swiper
           spaceBetween={15}
