@@ -32,7 +32,7 @@ const Header = () => {
             My Work
           </a>
         </div>
-        <div className="header__social">
+        <div className="header__social" data-aos="fade-right">
           {headerSNS.map((item) => (
             <a
               key={item.id}

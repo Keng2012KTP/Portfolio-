@@ -25,6 +25,10 @@ const Portfolio = () => {
         Check out some of the projects I've recently been working on. Use the
         button to toggle between the different categories.
       </p>
+      <p data-aos="fade-down-right">
+        I do coding every day so the section will get updated after somethings
+        done.
+      </p>
       <div className="container portfolio__container">
         <ProjectsCategories
           categories={uniqueCategories}

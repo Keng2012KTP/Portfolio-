@@ -10,11 +10,11 @@ const Testimonial = ({ testimonial }) => {
             src={testimonial.avatar}
             alt="img testimonail card"
           />
+          <small>{testimonial.profession}</small>
         </div>
       </div>
       <div className="testimonial__client-details">
         <h6>{testimonial.name}</h6>
-        <small>{testimonial.profession}</small>
       </div>
     </Card>
   );

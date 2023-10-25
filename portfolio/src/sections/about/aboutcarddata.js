@@ -7,9 +7,9 @@ const aboutcarddata = [
   { id: 2, desc: "1-10 Completed", icon: <TbBooks />, title: "Projects" },
   {
     id: 3,
-    desc: "I have no clients yet",
+    desc: "I have no either Assigned to Company or have Clients yet",
     icon: <BiHappyHeartEyes />,
-    title: "Clients",
+    title: "Company/Clients",
   },
 ];
 
