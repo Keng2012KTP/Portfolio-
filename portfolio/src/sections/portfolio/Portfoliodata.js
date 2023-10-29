@@ -29,12 +29,12 @@ const Portfoliodata = [
   },
   {
     id: 3,
-    category: "backend",
+    category: "fullstack",
     image: Image3,
-    title: "Project Title Three (Backend)",
-    desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-    demo: "https://www.google.com",
-    github: "https://github.com/KantaphongK",
+    title: "Weather APP (Small Fullstack) - WIP",
+    desc: " A small fullstack application that shows the weather of the city that the user searches for. The application is built with React.js, Node.js-express, and Consists of 2 APIs (OpenWeatherMap API and GeoDB Cities API).",
+    demo: "https://bkb-weather-app.vercel.app/",
+    github: "https://github.com/KantaphongK/BKBWeatherApp",
   },
   {
     id: 4,
@@ -65,7 +65,7 @@ const Portfoliodata = [
   },
   {
     id: 7,
-    category: "frontend",
+    category: "backend",
     image: Image7,
     title: "Project Title Seven (Frontend)",
     desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
@@ -83,7 +83,7 @@ const Portfoliodata = [
   },
   {
     id: 9,
-    category: "frontend",
+    category: "backend",
     image: Image9,
     title: "Project Title Nine (Frontend)",
     desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
