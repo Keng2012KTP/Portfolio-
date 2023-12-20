@@ -3,7 +3,7 @@ import aboutimg from "../../assets/aboutimg.jpg";
 import cv from "../../assets/cv.pdf";
 import { PiDownloadSimpleBold } from "react-icons/pi";
 import Card from "../../components/Card";
-import aboutcarddata from "./aboutcarddata";
+import {aboutcarddata,aboutcarddata2,aboutcarddata3} from "./aboutcarddata";
 const About = () => {
   return (
     <section id="about">
@@ -17,9 +17,15 @@ const About = () => {
             <img src={aboutimg} alt="img-about left" />
           </div>
           <div className="about__tools">
-            <h6 className="about__tools-header">
-              I'm using tools as below-WIP
-            </h6>
+            {/* <h6 className="about__tools-header"></h6> */}
+              <span className="about__tools-explain">Tools That I used</span>
+              <div className="about__tools-logos-div">{aboutcarddata2.map((item)=>
+              <div key={item.id} className="about__tools-logos">{item.icon}</div>)}
+              </div>
+              <span className="about__tools-explain">Tools that I learning</span>
+              <div className="about__tools-logos-div">{aboutcarddata3.map((item)=>
+              <div key={item.id} className="about__tools-logos">{item.icon}</div>)}
+              </div>
           </div>
         </div>
         <div className="about__right">
