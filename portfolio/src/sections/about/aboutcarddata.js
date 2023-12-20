@@ -1,9 +1,10 @@
-import { FaAward , FaReact,FaAngular  } from "react-icons/fa";
+import { FaAward , FaReact,FaAngular,FaPhp   } from "react-icons/fa";
 import { TbBooks } from "react-icons/tb";
 import { BiHappyHeartEyes } from "react-icons/bi";
 import { GrNode } from "react-icons/gr";
-import { SiExpress,SiMongodb,SiPostgresql,SiJquery,SiFlutter,SiMysql,SiTypescript    } from "react-icons/si";
+import { SiMui,SiPostman,SiExpress,SiMongodb,SiPostgresql,SiJquery,SiFlutter,SiMysql,SiTypescript    } from "react-icons/si";
 import { FaGitAlt,FaBootstrap,FaJava,FaGolang    } from "react-icons/fa6";
+import { PiFigmaLogoFill } from "react-icons/pi";
 
 export const aboutcarddata = [
   { id: 1, desc: "4 months Working", icon: <FaAward />, title: "Experience" },
@@ -25,6 +26,8 @@ export const aboutcarddata2 = [
   {id: 6, icon: <FaGitAlt/>},
   {id: 7, icon: <FaBootstrap/>},
   {id: 8, icon: <SiJquery/>},
+  {id: 9, icon: <SiPostman/>},
+  {id: 9, icon: <PiFigmaLogoFill/>},
 ]
 export const aboutcarddata3 = [
   {id: 1, icon: <FaJava />},
@@ -33,4 +36,6 @@ export const aboutcarddata3 = [
   {id: 4, icon: <SiFlutter />},
   {id: 5, icon: <SiMysql/>},
   {id: 6, icon: <SiTypescript/>},
+  {id: 7, icon: <SiMui/>},
+  {id: 8, icon: <FaPhp/>},
 ]
