@@ -2,7 +2,7 @@ import { FaAward , FaReact,FaAngular  } from "react-icons/fa";
 import { TbBooks } from "react-icons/tb";
 import { BiHappyHeartEyes } from "react-icons/bi";
 import { GrNode } from "react-icons/gr";
-import { SiExpress,SiMongodb,SiPostgresql,SiJquery,SiFlutter,SiMysql    } from "react-icons/si";
+import { SiExpress,SiMongodb,SiPostgresql,SiJquery,SiFlutter,SiMysql,SiTypescript    } from "react-icons/si";
 import { FaGitAlt,FaBootstrap,FaJava,FaGolang    } from "react-icons/fa6";
 
 export const aboutcarddata = [
@@ -32,4 +32,5 @@ export const aboutcarddata3 = [
   {id: 3, icon: <FaGolang />},
   {id: 4, icon: <SiFlutter />},
   {id: 5, icon: <SiMysql/>},
+  {id: 6, icon: <SiTypescript/>},
 ]
