@@ -29,7 +29,7 @@ const Header = () => {
             Let's Talk
           </a>
           <a href="#portfolio" className="btn light">
-            My Work
+            My Works
           </a>
         </div>
         <div className="header__social" data-aos="fade-right">

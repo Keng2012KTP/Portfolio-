@@ -23,6 +23,10 @@
 .service h4 {
   margin-bottom: 0.7rem;
 }
+.CEFR{
+   color: white;
+  background-color: gray;
+}
 @media screen and (max-width: 1024px) {
   .services__container {
     gap: 1.5rem;

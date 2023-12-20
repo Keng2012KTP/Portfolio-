@@ -22,6 +22,7 @@ const Services = () => {
             <div className="service__detail">
               <h4>{item.title}</h4>
               <p>{item.desc}</p>
+              <p>{item.desc2}</p>
             </div>
           </Card>
         ))}

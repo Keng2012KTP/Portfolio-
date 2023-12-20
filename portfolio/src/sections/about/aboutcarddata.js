@@ -7,11 +7,11 @@ import { FaGitAlt,FaBootstrap,FaJava,FaGolang    } from "react-icons/fa6";
 import { PiFigmaLogoFill } from "react-icons/pi";
 
 export const aboutcarddata = [
-  { id: 1, desc: "4 months Working", icon: <FaAward />, title: "Experience" },
-  { id: 2, desc: "1-10 Completed", icon: <TbBooks />, title: "Projects" },
+  { id: 1, desc: "I have no experience in developer field yet", icon: <FaAward />, title: "Experience" },
+  { id: 2, desc: "2 Completed", icon: <TbBooks />, title: "Projects" },
   {
     id: 3,
-    desc: "I have no either Assigned to Company or have Clients yet",
+    desc: "Currently I am open to work - preferably remote or hybrid work",
     icon: <BiHappyHeartEyes />,
     title: "Company/Clients",
   },
