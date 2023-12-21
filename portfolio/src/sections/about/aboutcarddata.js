@@ -1,7 +1,7 @@
 import { FaAward , FaReact,FaAngular,FaPhp   } from "react-icons/fa";
 import { TbBooks } from "react-icons/tb";
 import { BiHappyHeartEyes } from "react-icons/bi";
-import { GrNode } from "react-icons/gr";
+import { GrNode,GrGraphQl } from "react-icons/gr";
 import { SiMui,SiPostman,SiExpress,SiMongodb,SiPostgresql,SiJquery,SiFlutter,SiMysql,SiTypescript    } from "react-icons/si";
 import { FaGitAlt,FaBootstrap,FaJava,FaGolang    } from "react-icons/fa6";
 import { PiFigmaLogoFill } from "react-icons/pi";
@@ -27,7 +27,7 @@ export const aboutcarddata2 = [
   {id: 7, icon: <FaBootstrap/>},
   {id: 8, icon: <SiJquery/>},
   {id: 9, icon: <SiPostman/>},
-  {id: 9, icon: <PiFigmaLogoFill/>},
+  {id: 10, icon: <PiFigmaLogoFill/>},
 ]
 export const aboutcarddata3 = [
   {id: 1, icon: <FaJava />},
@@ -38,4 +38,5 @@ export const aboutcarddata3 = [
   {id: 6, icon: <SiTypescript/>},
   {id: 7, icon: <SiMui/>},
   {id: 8, icon: <FaPhp/>},
+  {id: 9, icon: <GrGraphQl/>},
 ]
