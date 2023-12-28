@@ -22,7 +22,10 @@ const Services = () => {
             <div className="service__detail">
               <h4>{item.title}</h4>
               <p>{item.desc}</p>
+              <br />
               <p>{item.desc2}</p>
+              <br />
+              <p>{item.desc3}</p>
             </div>
           </Card>
         ))}
