@@ -16,6 +16,8 @@ const Contact = () => {
         data-aos-duration="1000"
       >
         Here is the ways you can reach me!
+        <br />
+        หมายเหตุ - หากติดต่อผ่านทางโทรศัพท์ไม่ได้ ยินดีในการติดต่อผ่านทางไลน์ หรือ ส่งอีเมลล์เพื่อให้ผมตอบกลับได้ครับ
       </p>
       <div
         className="container contact__container"

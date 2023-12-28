@@ -1,39 +1,27 @@
 const faqslist = [
   {
     id: 1,
-    question: "Where do you get knowledge to build your projects?",
+    question: "Do you have CS background?",
     answer:
-      "I finished a TechUp's Software Development Bootcamp. and I'm continuously learning new things everyday.",
+      "Back when i study in the university, i not enrolled in  CS but i have study as Doctor of Dental Sugery in KhonKaen University. But with the misfortune events in my life, i found myself stuggling with non education problems and i decided to take the degree of Health science degree",
   },
   {
     id: 2,
-    question: "What stack do you use to build your projects?",
+    question: "Why do you want to work as Developer Role?",
     answer:
-      "I'm a fullstack developer. I use MERN stack (MongoDB, Express, React, Node) for web development. but i am open up to learn new technologies and frameworks.",
-  },
-  {
-    id: 5,
-    question: "What environment do you prefer to work in?",
-    answer:
-      "As i'm just starting my career as a developer, i prefer to work onsite, so i can learn things from experted developers but i am up to  work remotely as well.",
-  },
-  {
-    id: 4,
-    question: "Why this resume app contain with fictional data?",
-    answer:
-      "I'm still a new budding developer, so i don't have much achievements to fill this resume app. but i will update it regularly.",
+      "I want to work as a Developer because i find it very interesting that just a small lines of code can get some tasks done, and I very aware and interest to learn technologies that changing the course of life, for example IRL Wireless Procedure, Artificial Intelligence with specific goals or even Virtual Reality",
   },
   {
     id: 3,
-    question: "How good are you with english?",
+    question: "Prefered working setting and expected salary",
     answer:
-      "As i have been with my english speaking friends for a period of time, i can communicate in english regularly. All skills are quite far from perfect but i can communicate with ease and aim to improve it more and more.  ",
+      "I prefered to work as 100% WFA,WFH but also open up to WFO,Hybrid that if the workspace and team are interesting",
   },
   {
-    id: 6,
-    question: "Tell me fun facts about you?",
+    id: 4,
+    question: "Others social that you can reach me ",
     answer:
-      "I love to play chess, i like green color and i was a dental student ",
+      "I am availble on Discord as well, please contact me via discord id kkukn",
   },
 ];
 

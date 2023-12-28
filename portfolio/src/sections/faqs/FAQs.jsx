@@ -5,8 +5,8 @@ const FAQs = () => {
   return (
     <section id="faqs">
       <h2 data-aos="fade-left" data-aos-duration="1000">
-        Frequently Asked Questions
-      </h2>
+        Questions for get to know me more
+      </h2><br/>
       <p data-aos="fade-left" data-aos-duration="1000">
         Here are some questions and answer that it think will be useful to get
         to know me better
