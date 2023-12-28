@@ -17,6 +17,8 @@ const Testimonials = () => {
         <br /> <br />
         The section is WIP since the data is still fictional
         <br /> <br />
+        ข้อมูลส่วนนี้ยัง fictional เนื่องจาก อยากทำไว้เป็นโชว์เคส แต่เพิ่งย่ายสายงาน เลยไม่มีข้อมูล ในอนาคตจะมีการใส่ข้อมูลอ้างอิงจากบุคคลจริงๆ 
+        <br /> <br />
       </text>
       <div className="container" data-aos="zoom-out" data-aos-duration="3000">
         <Swiper
